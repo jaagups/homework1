@@ -1,6 +1,10 @@
 /* styles.css */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 body{
-	background-color:	#FFE4C4;
+  background-color:	#FFE4C4;
 }
 .information{
   font-style: italic;
@@ -9,6 +13,12 @@ body{
 
 }
 
+.course{
+  margin-top: 10px;
+  border-style: solid;
+  background-color: #FAEBD7;
+
+}
 
 .look{
   margin-top: 10px;
@@ -22,6 +32,14 @@ body{
     font-size: 2.5em;
 }
 
+footer a{
+  font-size: 1.5em;
+}
+
+table td{
+  color: brown;
+
+}
 div img{
   margin-left: 5px;
   margin-top: 30px;
